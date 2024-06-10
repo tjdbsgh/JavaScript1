@@ -1,0 +1,22 @@
+<html>
+	<head>
+		
+		
+	</head>
+	<body>
+		<button>textContent로 표시</button>
+		<button>innerHTML로 표시</button>
+		<h1>현재 시각</h1>
+		<div id = "current">시간이 어쩌고</div>
+		<script>
+			let now = new Date();
+			let curDiv =
+					document.getElementById("current");
+			function textContents(){
+				conDiv.textContent = now;
+			}
+			function innhtml(){
+				curDiv.innerHTML = "<h3>"+now+"</h3>";
+			}
+		
+</html>
